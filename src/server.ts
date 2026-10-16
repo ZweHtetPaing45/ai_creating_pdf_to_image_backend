@@ -14,5 +14,6 @@ app.use('/api/v1',routes);
 app.use(errorHandler);
 
 app.listen(port,()=>{
+    console.log('server.ts is running on port',port);
     logger.info(`Server is running on port ${port}`);
 });

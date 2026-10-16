@@ -16,6 +16,8 @@ export class PdfController{
 
         try{
 
+            console.log('controller working');
+
             const file = (req as any).file;
             
             const result = await this.convertPdfUseCase.execute(file!.path);
