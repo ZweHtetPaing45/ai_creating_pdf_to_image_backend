@@ -16,7 +16,7 @@ export class PdfController{
 
         try{
 
-            console.log('controller working');
+            console.log('controller working')
 
             const file = (req as any).file;
             
